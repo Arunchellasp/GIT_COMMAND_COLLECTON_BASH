@@ -14,6 +14,7 @@ $ git init
 
 
 #add project directory
+
 $ git config --global --add safe.directory 'E:/yor project location'
 
 #create branch
