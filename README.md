@@ -25,6 +25,8 @@ $ git branch -m v0.1
 
 $ git add .
 
+$ git add .gitignore ( if commit not accepted by repo)
+
 # add commit befor bush
 
 $ git commit -m "Initial project commit"
@@ -32,6 +34,10 @@ $ git commit -m "Initial project commit"
 # To add remote repositiry location
 
 $ git remote add origin https://github.com/repositiry
+
+# To push 
+
+$ git push -u origin v0.1
 
 # -------------------------------------------------------------------------------------------------------
 
