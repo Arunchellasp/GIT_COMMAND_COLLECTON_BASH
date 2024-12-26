@@ -1,6 +1,6 @@
 GIT COMMANDS SEQUENTIAL GUIDE
 
-#Initial Repositories creation and project add commadnd
+# Initial Repositories creation and project add commadnd
 
 # Configure user information (one-time setup)
 $ git config --global user.name "Your Name"
@@ -13,11 +13,11 @@ $ git config --global user.email "your.email@example.com"
 $ git init 
 
 
-#add project directory
+# add project directory
 
 $ git config --global --add safe.directory 'E:/yor project location'
 
-#create branch
+# create branch
 
 $ git branch -m v0.1
 
@@ -25,7 +25,7 @@ $ git branch -m v0.1
 
 $ git add .
 
-#add commit befor bush
+# add commit befor bush
 
 $ git commit -m "Initial project commit"
 
