@@ -25,7 +25,6 @@ $ git branch -m v0.1
 
 $ git add .
 
-$ git add .gitignore ( if commit not accepted by repo)
 
 # add commit befor bush
 
