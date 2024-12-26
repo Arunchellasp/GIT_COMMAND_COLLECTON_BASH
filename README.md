@@ -1,6 +1,39 @@
 GIT COMMANDS SEQUENTIAL GUIDE
 
-# 1. Initial Repository Setup
+#Initial Repositories creation and project add commadnd
+
+# Configure user information (one-time setup)
+$ git config --global user.name "Your Name"
+
+$ git config --global user.email "your.email@example.com"
+
+
+# Initialize a new Git repository
+
+$ git init 
+
+
+#add project directory
+$ git config --global --add safe.directory 'E:/yor project location'
+
+#create branch
+
+$ git branch -m v0.1
+
+# Add all the folder and files to git
+
+$ git add .
+
+#add commit befor bush
+
+$ git commit -m "Initial project commit"
+
+# To add remote repositiry location
+
+$ git remote add origin https://github.com/repositiry
+
+
+
 
 # Initialize a new Git repository
 
